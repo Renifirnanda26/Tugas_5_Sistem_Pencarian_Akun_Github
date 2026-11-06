@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencari Profil GitHub</title>
+    <!-- Menyambung ke style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pencari Profil GitHub</h1>
+
+        <!-- Coding untuk Pencarian -->
+        <form id="github-form">
+            <input type="text" id="username-input" placeholder="Masukkan username GitHub..." required>
+            <button type="submit">Cari</button>
+        </form>
+
+        <div id="loading" style="display: none;">Loading...</div> <!-- Loading -->
+
+        <!-- Tempat untuk Kartu Profil -->
+        <div id="profile-container"></div>
+    </div>
+
+    <!-- Ini buat nyambung ke file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
